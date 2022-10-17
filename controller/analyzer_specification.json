@@ -1,0 +1,20 @@
+{
+    "label": "Coincidence measurement",
+    "endpoint": "/multiverse/qnet/coincidence",
+    "when": "now",
+    "name": "coincidence-analyzer",
+    "parameters": {
+        "detector_first_name": "alice-time-tagger",
+        "detector_second_name": "bob-time-tagger",
+        "samples_size": "20"
+    },
+    "results": [
+        "xxx",
+        "xxx"
+    ],
+    "schema": "0123456789012345",
+    "timestamp": "2022-04-21 13:54:10.91",
+    "agentId": "coincidence-analyzer-1",
+    "role": "admin",
+    "specification": "measure"
+}

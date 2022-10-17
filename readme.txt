@@ -1,0 +1,1 @@
+In this version agents read measures from the bin file and not yet from the Time taggers

@@ -1,0 +1,25 @@
+{
+        "label": "Coincidence measurement",
+        "endpoint": "/multiverse/qnet/coincidence",
+        "when": "now",
+        "name": "coincidence-analyzer",
+        "parameters": {
+            "detector_first_name": "string",
+	        "detector_second_name": "string",
+            "samples_size": "number"
+        },
+        "results": [
+            "edge",
+            "H",
+            "coin_windw_min",
+            "coin_windw_max",
+            "acc_windw_min",
+            "acc_windw_max",
+            "H_rough"         
+        ],
+        "schema": "0123456789012345",
+        "timestamp": "2022-04-21 13:54:10.91",
+        "agentId": "coincidence-analyzer-1",
+        "role": "admin",
+        "capability": "measure"
+}

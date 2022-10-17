@@ -1,0 +1,19 @@
+{
+    "label": "Photon counting measurement",
+    "endpoint": "/multiverse/qnet/tt/Bob",
+    "when": "now",
+    "name": "Bob",
+    "parameters": {
+        "type": "calibration or mesurement",
+        "interval_time_s": "number",
+        "samples_size": 1
+    },
+    "results": [
+        "index","timeTageStream.bytearray"
+    ],
+    "schema": "50b3c67ebad2debfb38e90d8afd66c3b",
+    "timestamp": "2022-04-21 13:54:10.91",
+    "agentId": "agent-Bob",
+    "role": "admin",
+    "capability": "measure"
+}
